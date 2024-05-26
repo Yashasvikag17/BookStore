@@ -1,0 +1,74 @@
+/* Add these styles to your global stylesheet or the same file where your React component is using them */
+
+/* BookCard Container */
+.my-16 {
+  margin-top: 16px;
+}
+
+/* BookCard Heading */
+.text-5xl {
+  font-size: 2.5rem; /* Adjust as needed */
+}
+
+/* Swiper Container */
+.mySwiper {
+  width: 100%;
+  height: 100%;
+}
+
+/* Swiper Slide */
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden; /* Optional: Hide overflowing content */
+}
+
+/* Swiper Slide Link */
+.swiper-slide a {
+  display: block;
+  color: inherit; /* Use the default text color */
+  text-decoration: none;
+}
+
+/* Book Image */
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-bottom-left-radius: 8px; /* Optional: Add rounded corners to the image */
+  border-bottom-right-radius: 8px; /* Optional: Add rounded corners to the image */
+}
+
+/* Book Title */
+.swiper-slide h3 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333; /* Adjust text color as needed */
+}
+
+/* Swiper Pagination */
+.swiper-pagination {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Swiper Pagination Bullets */
+.swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  background-color: #999; /* Adjust bullet color */
+  margin: 0 5px;
+  opacity: 0.7; /* Optional: Adjust bullet opacity */
+}
+
+/* Active Swiper Pagination Bullet */
+.swiper-pagination-bullet-active {
+  background-color: #333; /* Adjust active bullet color */
+  opacity: 1;
+}
